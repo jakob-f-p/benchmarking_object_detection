@@ -1,8 +1,7 @@
 # Python version == 3.11.9 or similar
-torch==2.0.1
-torchvision==0.15.2
-mmcv==2.0.1
+torch==2.1.2
+torchvision==0.16.2
+mmcv==2.1.0
 mmdet==3.3.0
 mmengine==0.10.4
-mmyolo==0.6.0
 ruff>=0.4.3
