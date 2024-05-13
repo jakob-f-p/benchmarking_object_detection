@@ -1,4 +1,4 @@
-# Python version == 3.11.9 or similar
+# Python version == 3.9.13 or similar
 torch==2.1.2
 torchvision==0.16.2
 mmcv==2.1.0
