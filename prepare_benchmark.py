@@ -161,10 +161,8 @@ def main(passed_args: Sequence[str] = None):
 
     traffic_categories_filter = CategoriesFilter(
         name="traffic",
-        category_names=["umbrella"],
-        super_category_names=[]
-        # category_names = ["person", "umbrella", "backpack", "suitcase"],
-        # super_category_names = ["vehicle", "outdoor"]
+        category_names = ["person", "umbrella", "backpack", "suitcase"],
+        super_category_names = ["vehicle", "outdoor"]
     )
     filter_image_annotations(traffic_categories_filter)
 
